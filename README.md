@@ -18,7 +18,10 @@ Apache and MySQL installed on local machine.<br><br>
 3. Access website on browers with URL: http://localhost/ElectronicVotingSystem/
 
 # Comments on System
+1. "BlockChain Server Files" and blockchain.js are there to demonstrate the implementation of a blockchain network working concurrently with the current system if the files were located on a Node.js server with an IP Address of 45.55.80.29.
 
+2. ElectronicVotingSystem\js\kairos.js was originally created by Cole Calistra and uploaded to GitHub to make the task of implementing KAIROS into a project easier. https://github.com/kairosinc/Kairos-SDK-Javascript 
 
+3. The Graph on the Client's page can be displayed by logging into the admin page with the URL: http://localhost/ElectronicVotingSystem/admin , using the credentials ID: "1234" and Password "1234" then scrolling to the bottom of the page to click the "Release Results" Button. When this is done revisit the Client's page and click the "Content" B
 
 
