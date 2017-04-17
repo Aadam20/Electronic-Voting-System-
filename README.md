@@ -22,6 +22,6 @@ Apache and MySQL installed on local machine.<br><br>
 
 2. ElectronicVotingSystem\js\kairos.js was originally created by Cole Calistra and uploaded to GitHub to make the task of implementing KAIROS into a project easier. https://github.com/kairosinc/Kairos-SDK-Javascript 
 
-3. The Graph on the Client's page can be displayed by logging into the admin page with the URL: http://localhost/ElectronicVotingSystem/admin , using the credentials ID: "1234" and Password "1234" then scrolling to the bottom of the page to click the "Release Results" Button. When this is done revisit the Client's page and click the "Content" B
+3. The Graph on the Client's page can be displayed by logging into the admin page with the URL: http://localhost/ElectronicVotingSystem/admin , using the credentials ID: "1234" and Password "1234" then scrolling to the bottom of the page to click the "Release Results" Button. When this is done revisit the Client's page and click the "Content" Button
 
 
