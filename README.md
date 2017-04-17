@@ -1,4 +1,5 @@
 # Electronic Voting System
 Facial Recognition - Complete<br>
-Databate - Complete/Subject to Change
-Blockchain Implementation - In progress
+Blockchain Implementation - Complete<br><bra
+# Instructions
+1. Folder must be copied <b>as is</b> to 
