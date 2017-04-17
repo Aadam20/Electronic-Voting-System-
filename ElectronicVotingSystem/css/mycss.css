@@ -1,0 +1,257 @@
+body{
+  opacity: 0.93;
+  background-image: url("../images/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*padding-top: 70px;*/
+}
+
+video{
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+canvas{
+  height: 369px;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.navbar-inverse {
+  background-image: linear-gradient(to bottom, #e0eded 0%, #b5c5c5 100%);
+  opacity: 0.95;
+  background-color: #e0eded;
+  border-color: #a7c1d6;
+}
+
+.header-1{
+  font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+}
+
+.navbar-btn{
+  font-size: 20px;
+}
+
+.test{
+  background-color: black;
+  height: 100px;
+}
+
+.scheme{
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #e0eded 0%, #b5c5c5 100%);
+  /*border-style: solid;
+  border-color: #a7c1d6;*/
+}
+
+.top-buffer{
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.head-logo{
+  font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+  text-align: center;
+}
+
+.middle{
+  margin-top: 5%;
+}
+
+.center-block{
+  float: none;
+}
+
+
+/*Side Menu Classes*/
+.sidenav {
+
+    height: 90%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /*background-color: #3076da;*/
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-top: 5%;
+
+}
+
+.sidenav a {
+
+    padding: 8px 8px 8px 32px;
+    /*text-decoration: none;*/
+    font-size: 25px;
+    color: #3076da;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/*Voting Modal Classes*/
+.modal_window{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.selectNNP{
+  border: #3d7a56 5px solid;
+}
+
+.selectNDC{
+  background-color: #f6bd02;
+  border: #ba0202 5px solid;
+}
+
+.hide_radio{
+  position: absolute;
+  left: -9999999px;
+  /*display: none; not used for accessibility reasons e.g. if a visually impaired user
+  decides the vote, if display:none; is used the audio player would not announce
+  the radio button to the user*/
+}
+
+label[for=nnp]{
+  cursor: pointer;
+}
+
+label[for=nnp]:hover{
+  border: #3d7a56 5px solid;
+}
+
+label[for=nnp] img{
+  padding: 3px;
+}
+
+label[for=ndc]{
+  background-color: #f6bd02;
+  cursor: pointer;
+}
+
+label[for=ndc]:hover{
+  border: #ba0202 5px solid;
+}
+
+label[for=ndc] img{
+  padding: 3px;
+}
+
+/*Side Bar ID */
+#main{
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#logo{
+  float: left;
+}
+
+
+#logo_n{
+  float: left;
+  font-size: 20px;
+  font-family: Rockwell,"Courier Bold",Courier,Georgia,Times,"Times New Roman",serif;
+}
+
+#scan{
+  height: 369px;
+  background-color: black;
+  border-radius: 5px
+}
+
+#lis{
+  font-size: 20px;
+  list-style: none;
+}
+
+#head1{
+  font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+}
+
+#heading{
+  font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+  color: #3172ce;
+  font-size: 40px;
+  margin-top: -10%;
+}
+
+#res_button{
+  margin-top: 20px;
+}
+
+#logo{
+  float: left;
+}
+
+#logo_n{
+  font-size: 20px;
+  font-family: Rockwell,"Courier Bold",Courier,Georgia,Times,"Times New Roman",serif;
+  color: #3172ce;
+}
+
+#sideMenu{
+  font-size: 30px;
+  color: #3172ce;
+  cursor: pointer;
+}
+
+#signature{
+  /*
+  float: left;*/
+  font-size: 25px;
+  font-family: "Brush Script MT",cursive;
+  color: #3172ce;
+}
+
+#small{
+  font-size: 15px;
+  padding-top: 15px;
+}
+
+#misc{
+  font-size: 15px;
+  list-style: none;
+
+}
+
+#terms{
+  float: left;
+  margin-top: 50px;
+}
+
+#vote_space{
+  border-top: 1px solid #e5e5e5;
+  padding-top: 30px;
+}
+
+
+#chart-container{
+      width: 100%;
+      height: auto;
+}
