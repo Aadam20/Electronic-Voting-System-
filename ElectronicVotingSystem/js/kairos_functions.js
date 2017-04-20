@@ -122,7 +122,7 @@ function KairosEnroll(){
   $.ajax({
 
       type: "POST",
-      url: '/EVS/communication/RegisterVoter.php',
+      url: '/ElectronicVotingSystem/communication/RegisterVoter.php',
       data: data,
       async : false,
 
